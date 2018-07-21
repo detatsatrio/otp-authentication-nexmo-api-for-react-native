@@ -55,8 +55,8 @@ export default class App extends Component<Props> {
     myHeaders.append('Content-Type', 'application/json');
 
     body = {
-      api_key: "371fc064",
-      api_secret: "Le4B5rvEBJHfoXu9",
+      api_key: {api_key},
+      api_secret: {api_secret},
       request_id: this.state.requestId,
       code: this.state.token
     };
@@ -88,8 +88,8 @@ export default class App extends Component<Props> {
     myHeaders.append('Content-Type', 'application/json');
 
     body = {
-      api_key: "371fc064",
-      api_secret: "Le4B5rvEBJHfoXu9",
+      api_key: {api_key},
+      api_secret: {api_secret},
       number: this.state.phone,
       brand: this.state.brand
     };
