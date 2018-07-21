@@ -1,5 +1,3 @@
-# otp-authentication-nexmo-api-for-react-native
-
 ## How To Use (Android)
 - git clone https://github.com/detatsatrio/otp-authentication-nexmo-api-for-react-native.git otp-react-native
 - cd otp-react-native
